@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>stance.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+      location.replace("/Users/shehjarsadhu/Desktop/Data_Workshop/Webpage/signup.html")
+    }
+    </script>
+    <style>
+       .h301{
+    float: right;
+    margin-left: 750px;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+      h1{
+        color:  #00b300;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    body{
+      background-color: white;
+    }
+    .img{
+      align-content: center;
+    }
+    .logo-img{
+      float: center;
+      margin-top: 50px;
+      margin-left: 150px;
+      margin-right: 150px;
+      height: 100px;
+      box-sizing: border-box;
+    }
+      </style>
+</head>
+<body>
+
+<!-- Black with white text -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <button  onClick="location.href='index.html'"  type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" style="background-color:#051a37ff">
+              Home
+            </button>
+            <button  onClick="location.href='about.html'"  type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" style="background-color:#051a37ff">
+                About
+            </button>
+            <button onclick="myFunction()" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" style="background-color:#051a37ff">
+              Sign up
+            </button>
+            <button onClick="location.href='login.html'" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" style="background-color:#051a37ff">
+              Login
+            </button>
+            <button onClick="location.href='people.html'" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off" style="background-color:#051a37ff">
+                People
+            </button>
+            <h3 class="h301" >STANCE</h3>
+
+        </ul>
+      </nav>
+      
+<div class="jumbotron text-center" style="background-color:#051a37ff">
+  <p style="color: #ffffff">Back posture detection</p> 
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Identified Problem</h3>
+        <p>In today’s digital age  where computers are at the core of building efficiency yet,  they  pose a problem of ergonomics.
+           Musculoskeletal disorders (MSDs)  effect the nerve ,muscle, blood vessels, ligaments. According to  Bureau of Statistics Labour (BSL)  MSD cases accounted for 33% of all worker injury.  While technology can be a boon it also can be prove to solve its own challenges.  
+          The main aim of our project is to eliminate MSD’s and  improve posture. We discuss our approach in the following slides.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Ergonomics</h3>
+        <p>Ergonomics is the adaptation of an environment (workspace, sports, leasure, health and safety) to best fit the people in that environment. 
+          Poor ergonomics lead to MSDs (Musculoskeletal Disorders)
+          Some examples of MSDs: 
+          Carpal tunnel syndrome, Tendinitis, Rotator cuff injuries, Epicondylitis, Trigger finger, Muscle strains and low back injuries
+          There are many different ways to prevent MSDs such as having ergonomic chairs and tables, but not many ways of detecting bad posture. 
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3> A motion capture approach</h3> 
+        <p>
+          A six IR camera setup, using the Flex 13 and the Optihub 2 by OptiTrac,  was used to create a 3D area in which IR markers can be used for motion capture.
+          The software, “Motive” by OptiTrack, uses the Flex 13 cameras and IR markers to track and record data. Data from a singular camera  is recorded in 2D space.  Motive takes the data from multiple cameras then converts the 2D spaces into 3D coordinates.     
+        </p>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+        <img class="img" src="/Users/shehjarsadhu/Desktop/Data_Workshop/Webpage/Images/concept.png" align="middle" height="500" width="1000" class="rounded float-left" alt="logo-img">
+</div>
+
+</body>
+</html>
